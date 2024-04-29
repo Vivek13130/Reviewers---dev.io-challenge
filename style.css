@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Sora', sans-serif;
+}
+
+body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #FAFAF9;
+      height: 100vh;
+}
+
+main{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%; 
+}
+
+#text{
+      width: 48%;
+      color: #52525A;
+}
+
+#star{
+      height: 80px;
+      background-color: #f5c044f1;
+      border-radius: 50%;
+      padding: 18px;
+      margin-bottom: 2rem;
+}
+
+h1{
+      font-weight: 600;
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      color: black;
+}
+
+#info{
+      line-height: 3.5rem;
+      font-size: 2rem;
+      font-weight:400;
+      margin-bottom: 2.6rem;
+}
+
+ul{
+      list-style: none;
+}
+
+li{
+      vertical-align: text-top;
+      font-size: 1.55rem;
+      display: flex;
+      align-items: center;
+      line-height: 3.2rem;
+      font-weight: 400;
+}
+
+li img{
+      margin-right: 16px;
+      scale: 1.5;
+}
+
+
+
+#cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 48%;
+}
+
+.card{
+      background-color: white;
+      border-radius: 1rem;
+      width: 65%;
+      box-shadow: 1px 1px 50px #52525a3f;
+      padding: 3rem;
+}
+
+#card1{
+      margin-bottom: 4.2rem;
+      align-self: flex-end;
+}
+
+.header{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 1.6rem;
+}
+
+.main-img{
+      height: 3.5rem;
+}
+
+.stars{
+      margin-left: 1.7rem;
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+}
+
+.stars img{
+      scale: 1.4;
+      padding:8px ;
+}
+
+h2{
+      font-size: 1.7rem;
+      font-weight:500;
+      margin-bottom: 1rem;
+}
+
+.card p{
+      line-height: 2.9rem;
+      color: #52525A;
+      font-size: 1.6rem;
+}
+
+#card2{
+      padding-right: 3.8rem;
+}
