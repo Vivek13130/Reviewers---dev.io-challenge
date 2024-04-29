@@ -1,37 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-*{
+* {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
       font-family: 'Sora', sans-serif;
 }
 
-body{
+body {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       background-color: #FAFAF9;
       height: 100vh;
-
 }
 
-main{
+main {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 80%; 
-      border: 1px solid;
+      width: 80%;
 }
-#text{
-      border: 2px solid red;
+
+#text {
       width: 46%;
       color: #52525A;
 }
 
 
-#star{
+#star {
       height: 45px;
       background-color: #f5c044f1;
       border-radius: 50%;
@@ -39,25 +37,25 @@ main{
       margin-bottom: 0.7rem;
 }
 
-h1{
+h1 {
       font-weight: 600;
       font-size: 36px;
       margin-bottom: 0.95rem;
       color: black;
 }
 
-#info{
+#info {
       line-height: 2rem;
       font-size: 20px;
-      font-weight:400;
+      font-weight: 400;
       margin-bottom: 2rem;
 }
 
-ul{
+ul {
       list-style: none;
 }
 
-li{
+li {
       /* border: 1px solid; */
       vertical-align: text-top;
       font-size: 16px;
@@ -67,12 +65,11 @@ li{
       line-height: 2.4rem;
 }
 
-li img{
+li img {
       margin-right: 10px;
 }
 
-
-#cards{
+#cards {
       /* border: 2px solid green; */
       display: flex;
       flex-direction: column;
@@ -80,7 +77,7 @@ li img{
       width: 50%;
 }
 
-.card{
+.card {
       background-color: white;
       border-radius: 1rem;
       /* border: 2px solid dodgerblue; */
@@ -89,43 +86,43 @@ li img{
       padding: 1.5rem;
 }
 
-#card1{
+#card1 {
       margin-bottom: 3rem;
       align-self: flex-end;
 }
 
 
-.header{
+.header {
       display: flex;
       align-items: center;
       justify-content: flex-start;
       margin-bottom: 1rem;
 }
 
-.main-img{
+.main-img {
       height: 1.8rem;
 }
 
 
-.stars{
+.stars {
       margin-left: 1rem;
       display: flex;
       align-items: center;
       flex-wrap: nowrap;
 }
 
-.stars img{
+.stars img {
       scale: 1.01;
-      padding:2px ;
+      padding: 2px;
 }
 
-h2{
+h2 {
       font-size: 16px;
-      font-weight:500;
+      font-weight: 500;
       margin-bottom: 0.65rem;
 }
 
-.card p{
+.card p {
       font-size: 16px;
       line-height: 1.8rem;
       color: #52525A;
