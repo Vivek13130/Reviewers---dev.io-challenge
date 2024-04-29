@@ -14,6 +14,7 @@ body{
       justify-content: center;
       background-color: #FAFAF9;
       height: 100vh;
+
 }
 
 main{
@@ -21,33 +22,35 @@ main{
       flex-wrap: wrap;
       justify-content: space-between;
       width: 80%; 
+      border: 1px solid;
 }
-
 #text{
-      width: 48%;
+      border: 2px solid red;
+      width: 46%;
       color: #52525A;
 }
 
+
 #star{
-      height: 80px;
+      height: 45px;
       background-color: #f5c044f1;
       border-radius: 50%;
-      padding: 18px;
-      margin-bottom: 2rem;
+      padding: 7px;
+      margin-bottom: 0.7rem;
 }
 
 h1{
       font-weight: 600;
-      font-size: 4rem;
-      margin-bottom: 2rem;
+      font-size: 36px;
+      margin-bottom: 0.95rem;
       color: black;
 }
 
 #info{
-      line-height: 3.5rem;
-      font-size: 2rem;
+      line-height: 2rem;
+      font-size: 20px;
       font-weight:400;
-      margin-bottom: 2.6rem;
+      margin-bottom: 2rem;
 }
 
 ul{
@@ -55,76 +58,76 @@ ul{
 }
 
 li{
+      /* border: 1px solid; */
       vertical-align: text-top;
-      font-size: 1.55rem;
+      font-size: 16px;
+
       display: flex;
       align-items: center;
-      line-height: 3.2rem;
-      font-weight: 400;
+      line-height: 2.4rem;
 }
 
 li img{
-      margin-right: 16px;
-      scale: 1.5;
+      margin-right: 10px;
 }
 
 
-
 #cards{
+      /* border: 2px solid green; */
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 48%;
+      width: 50%;
 }
 
 .card{
       background-color: white;
       border-radius: 1rem;
+      /* border: 2px solid dodgerblue; */
       width: 65%;
-      box-shadow: 1px 1px 50px #52525a3f;
-      padding: 3rem;
+      box-shadow: 2px 2px 50px #52525a3f;
+      padding: 1.5rem;
 }
 
 #card1{
-      margin-bottom: 4.2rem;
+      margin-bottom: 3rem;
       align-self: flex-end;
 }
+
 
 .header{
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin-bottom: 1.6rem;
+      margin-bottom: 1rem;
 }
 
 .main-img{
-      height: 3.5rem;
+      height: 1.8rem;
 }
 
+
 .stars{
-      margin-left: 1.7rem;
+      margin-left: 1rem;
       display: flex;
       align-items: center;
       flex-wrap: nowrap;
 }
 
 .stars img{
-      scale: 1.4;
-      padding:8px ;
+      scale: 1.01;
+      padding:2px ;
 }
 
 h2{
-      font-size: 1.7rem;
+      font-size: 16px;
       font-weight:500;
-      margin-bottom: 1rem;
+      margin-bottom: 0.65rem;
 }
 
 .card p{
-      line-height: 2.9rem;
+      font-size: 16px;
+      line-height: 1.8rem;
       color: #52525A;
-      font-size: 1.6rem;
-}
-
-#card2{
-      padding-right: 3.8rem;
+      font-weight: 400;
 }
